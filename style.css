@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: -webkit-linear-gradient(135deg, #0eeff0 30%, #088f90 90%);
+    background-image: linear-gradient(135deg, #0eeff0 30%, #088f90 90%);
+    padding: 100px;
+    color: #999;
+}
+
+.container form input,
+.container form textarea {
+    display: inline-block;
+    width: 100%;
+    padding: 0 20px;
+    line-height: 35px;
+    background: white;
+    border: 1px solid #e6e6e6;
+    border-bottom-width: 3px;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.container form input[type="radio"],
+.container form input[type="checkbox"] {
+    display: inline-block;
+    padding: 0;
+    width: 5%;
+}
+
+.container form label {
+    display: inline-block;
+    padding: 10px;
+}
+
+button {
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+    background: #0069ed;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+button:hover,
+button:focus {
+    background: #0053ba;
+}
+
+button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+button:active {
+    transform: scale(0.99);
+}
